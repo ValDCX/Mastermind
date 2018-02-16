@@ -11,7 +11,6 @@ public abstract class Jeu {
 
 	private static Logger logger = Logger.getLogger(Main.class);
 	
-	static int devMode;
 	Joueur joueur1;
 	Joueur joueur2;
 	String nomDuJeu;
@@ -168,11 +167,7 @@ public abstract class Jeu {
 	}
 	
 	public void devMode() {
-<<<<<<< HEAD
 		if (Main.modDev == 1)
-=======
-		if (devMode == 1)
->>>>>>> parent of 4fc0e15... Le mode dev est maintenant un param√®tre pass√© dans la m√©thode Main
 		{
 			System.out.println("[Mode dÈveloppeur] Le nombre mystËre est : "+nombreMystere);
 		}
